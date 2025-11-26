@@ -1,6 +1,7 @@
 # AppDB API
 
-AppDB allows the storage of arbitrary JSON documents similar to a normal NoSQL database. This enables the ability to store a state within your DomoApp. Optionally, you can also sync the data in AppDB back to a Domo DataSet. Three layers (analogous to traditional storage mechanisms) provide this data storage:
+> **Source:** https://developer.domo.com/portal/1l1fm2g0sfm69-app-db-api
+> AppDB allows the storage of arbitrary JSON documents similar to a normal NoSQL database. This enables the ability to store a state within your DomoApp. Optionally, you can also sync the data in AppDB back to a Domo DataSet. Three layers (analogous to traditional storage mechanisms) provide this data storage:
 
 1.  Datastores: Analogous to a database. A CustomApp has a single datastore that is created automatically, named with the CustomApp’s ID and managed transparently to the CustomApp.
 2.  Collections: Analogous to a collection in a NoSQL database or a table in a relational database. A datastore can have multiple collections defined.
@@ -49,7 +50,6 @@ The schema object takes a list of columns. Each column has a name and a type. Th
 - `DOUBLE`
 - `DATE`
 - `DATETIME`
-
   > #### [
   >
   > Note
@@ -619,4 +619,3 @@ The schema object takes a list of columns. Each column has a name and a type. Th
   ](#http-request-17)
   DELETE /domo/datastores/v1/collections/{collectionName}/permission/{entity}/{entityId} HTTP/1.1
   ](#http-response-15)
-  [AppDB API](#appdb-api "AppDB API")[Defining Collections in the Manifest](#defining-collections-in-the-manifest "Defining Collections in the Manifest")[Making API Calls to Your Collection](#making-api-calls-to-your-collection "Making API Calls to Your Collection")[Create Document](#create-document "Create Document")[List Documents](#list-documents "List Documents")[Get Document](#get-document "Get Document")[Update Document](#update-document "Update Document")[Delete Document](#delete-document "Delete Document")[Query Documents](#query-documents "Query Documents")[Query Documents with Aggregations](#query-documents-with-aggregations "Query Documents with Aggregations")[Partially Update Documents Using Queries](#partially-update-documents-using-queries "Partially Update Documents Using Queries")[Bulk Operations](#bulk-operations "Bulk Operations")[Create Documents in Bulk](#create-documents-in-bulk "Create Documents in Bulk")[Upsert Documents in Bulk](#upsert-documents-in-bulk "Upsert Documents in Bulk")[Delete Documents in Bulk](#delete-documents-in-bulk "Delete Documents in Bulk")[Programmatic Operations for Collections](#programmatic-operations-for-collections "Programmatic Operations for Collections")[Create a Collection](#create-a-collection "Create a Collection")[List Collections](#list-collections "List Collections")[Update Collection](#update-collection "Update Collection")[Delete a Collection](#delete-a-collection "Delete a Collection")[Manually Exporting Collections](#manually-exporting-collections "Manually Exporting Collections")[Document Level Security Filtering](#document-level-security-filtering "Document Level Security Filtering")[Collection Level Security](#collection-level-security "Collection Level Security")

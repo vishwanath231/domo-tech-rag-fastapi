@@ -1,7 +1,8 @@
 # Task Center API
 
-Task Center allows you to organize manual tasks into different queues of work and control who can access them. They are often used in concert with [Workflows](https://domo-support.domo.com/s/article/000005108?language=en_US).
-For more [background on Task Center, please see the Knowledge Base](https://domo-support.domo.com/s/article/000005172?language=en_US).
+> **Source:** https://developer.domo.com/portal/k2vv2vir3c8ry-task-center-api
+> Task Center allows you to organize manual tasks into different queues of work and control who can access them. They are often used in concert with [Workflows](https://domo-support.domo.com/s/article/000005108?language=en_US).
+> For more [background on Task Center, please see the Knowledge Base](https://domo-support.domo.com/s/article/000005172?language=en_US).
 
 ### [
 
@@ -364,4 +365,3 @@ POST /domo/queues/v1/{queueId}/tasks/{taskId}/complete?version={VERSION}
 ](#request-body-2)
 ](#http-response-5)
 The completed task.
-[Task Center API](#task-center-api "Task Center API")[Get Queues](#get-queues "Get Queues")[Get Queue by ID](#get-queue-by-id "Get Queue by ID")[Get Tasks](#get-tasks "Get Tasks")[Get Task by ID](#get-task-by-id "Get Task by ID")[Returns a task by its id.](#returns-a-task-by-its-id "Returns a task by its id.")[Save Task Progress](#save-task-progress "Save Task Progress")[Complete Task](#complete-task "Complete Task")

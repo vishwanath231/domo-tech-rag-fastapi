@@ -1,7 +1,8 @@
 # Files API
 
-Domo supports nearly 100 different file types across over 300 file extensions. Please reach out to Domo Support if you have a question about supported file types, as the list changes often.
-
+> **Source:** https://developer.domo.com/portal/eeoadx67i6h46-files-api
+> Domo supports nearly 100 different file types across over 300 file extensions. Please reach out to Domo Support if you have a question about supported file types, as the list changes often.
+>
 > #### [
 >
 > Domo Bricks
@@ -331,4 +332,3 @@ export const complete \= async (sessionId) \=> {
   ](#http-request-12)
   POST /domo/data-files/v1/multipart/{sessionId}/abort HTTP/1.1
   ](#http-response-12)
-  [Files API](#files-api "Files API")[Upload a file](#upload-a-file "Upload a file")[Request Body](#request-body "Request Body")[HTTP Response](#http-response "HTTP Response")[Upload a file revision](#upload-a-file-revision "Upload a file revision")[Get all files metadata](#get-all-files-metadata "Get all files metadata")[Get file metadata by ID](#get-file-metadata-by-id "Get file metadata by ID")[Download a file](#download-a-file "Download a file")[Delete a file](#delete-a-file "Delete a file")[Get file permissions](#get-file-permissions "Get file permissions")[Update file permissions](#update-file-permissions "Update file permissions")[Creating a Multi-part Upload Session](#creating-a-multi-part-upload-session "Creating a Multi-part Upload Session")[Creating a Multi-part Upload Update Session](#creating-a-multi-part-upload-update-session "Creating a Multi-part Upload Update Session")[Uploading File Parts](#uploading-file-parts "Uploading File Parts")[Completing a Multi-part Upload](#completing-a-multi-part-upload "Completing a Multi-part Upload")[Error Handling and Retry Mechanism](#error-handling-and-retry-mechanism "Error Handling and Retry Mechanism")

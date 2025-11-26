@@ -1,6 +1,7 @@
 # Groups API
 
-The Groups API is a Read Only set of endpoints available to retrieve information about the various groups that belong to the instance in which a Custom App is published. This enables your application to take advantage of knowing the groups that individual users could potentially belong to and alter their user experience accordingly.
+> **Source:** https://developer.domo.com/portal/2hwa98wx7kdm4-groups-api
+> The Groups API is a Read Only set of endpoints available to retrieve information about the various groups that belong to the instance in which a Custom App is published. This enables your application to take advantage of knowing the groups that individual users could potentially belong to and alter their user experience accordingly.
 
 ### [
 
@@ -92,4 +93,3 @@ GET /domo/groups/v1/user/{userId}
 userId
 The id of the desired user
 ](#http-response-3)
-[Groups API](#groups-api "Groups API")[All Groups](#all-groups "All Groups")[Group by Id](#group-by-id "Group by Id")[Group by Name](#group-by-name "Group by Name")[Groups by User](#groups-by-user "Groups by User")

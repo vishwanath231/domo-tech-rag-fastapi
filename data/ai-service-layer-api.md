@@ -1,7 +1,7 @@
 # AI Service Layer API
 
-![AI Pro](https://stoplight.io/api/v1/projects/cHJqOjI2NDA4OA/branches/YnI6MTE3NTA3NzU/images/%2Fassets%2Fimages%2Fpro.png)
-
+> **Source:** https://developer.domo.com/portal/wjqiqhsvpadon-ai-service-layer-api-ai-pro-assets-images-pro-png
+> ![AI Pro](https://stoplight.io/api/v1/projects/cHJqOjI2NDA4OA/branches/YnI6MTE3NTA3NzU/images/%2Fassets%2Fimages%2Fpro.png)
 > For pricing information, please refer to Domo’s online consumption terms ([https://www.domo.com/consumption-terms](https://www.domo.com/consumption-terms)) and the credit rate card in your Domo instance (Admin > Company Settings > Credit Utilization > Rate Card) for more information.
 > Domo's AI Service Layer enables developers to build AI capabilities into their Domo Apps. In particular, the AI Service Layer currently supports two services from within Apps:
 
@@ -185,4 +185,4 @@ Returns the prompt used and the response from the model. The response will inclu
 "output": "<The output text from the image, e.g., 'Hello World'>"
 "modelId": "domo.domo_ai.domogpt-chat-medium-v1.1:anthropic",
 "isCustomerModel": false
-[AI Service Layer API](#ai-service-layer-api-ai-pro "AI Service Layer API ") [Text Generation](#text-generation "Text Generation")[Text-to-SQL](#text-to-sql "Text-to-SQL")[Image-to-Text](#image-to-text "Image-to-Text")
+[AI Service Layer API](#ai-service-layer-api-ai-pro) [Text Generation](#text-generation)[Text-to-SQL](#text-to-sql)[Image-to-Text](#image-to-text)

@@ -1,6 +1,7 @@
 # Domo SDKs
 
-An SDK (software development kit) is a collection of tools that can be used to build software for a specific platform. Domo officially supports both Java and Python SDKs, which provide quick paths for developing on top of Domo's APIs.
+> **Source:** https://developer.domo.com/portal/e04caa9abb5cc-domo-sd-ks
+> An SDK (software development kit) is a collection of tools that can be used to build software for a specific platform. Domo officially supports both Java and Python SDKs, which provide quick paths for developing on top of Domo's APIs.
 
 ## [
 
@@ -40,4 +41,3 @@ Classic Jar Import
   ](#r)
   The Domo R SDK ([rdomo](https://github.com/domoinc/rdomo)) lets you interact with Domo APIs from R for tasks like managing DataSets, users, groups, and more.
   See the official repository for installation and usage: [https://github.com/domoinc/rdomo](https://github.com/domoinc/rdomo)
-  [Domo SDKs](#domo-sdks "Domo SDKs")[Java](#java "Java")[Maven](#maven "Maven")[Gradle](#gradle "Gradle")[Classic Jar Import](#classic-jar-import "Classic Jar Import")[Python](#python "Python")[R](#r "R")

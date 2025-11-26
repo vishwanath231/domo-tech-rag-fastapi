@@ -1,8 +1,9 @@
 # Workflows API
 
-Domo Workflows allows you to graphically model a business process into an executable workflow using Business Process Management (BPM) notations and flows. Orchestration capabilities offer robust solutions for integrating internal and external systems, configuring decision logic, and automating activities in a workflow.
-For more background on Workflows, check out the [Knowledge Base for an overview](https://domo-support.domo.com/s/article/000005108?language=en_US).
-If you haven't leveraged Workflows from within Apps before, checkout [the guide on hitting a Workflow from an App](../Apps/App-Framework/Guides/hitting-a-workflow.md), which details how to configure your `manifest.json` file and wire up Workflows to your app.
+> **Source:** https://developer.domo.com/portal/1ay1akbc787jg-workflows-api
+> Domo Workflows allows you to graphically model a business process into an executable workflow using Business Process Management (BPM) notations and flows. Orchestration capabilities offer robust solutions for integrating internal and external systems, configuring decision logic, and automating activities in a workflow.
+> For more background on Workflows, check out the [Knowledge Base for an overview](https://domo-support.domo.com/s/article/000005108?language=en_US).
+> If you haven't leveraged Workflows from within Apps before, checkout [the guide on hitting a Workflow from an App](../Apps/App-Framework/Guides/hitting-a-workflow.md), which details how to configure your `manifest.json` file and wire up Workflows to your app.
 
 ### [
 
@@ -124,4 +125,3 @@ GET /domo/workflow/v1/models/{workflowAlias}/instance/{workflowInstanceId}
 ](#http-response-2)
 Returns the information about the instance of the Workflow requested. The `status` property can take the values `null`, `IN_PROGRESS`, `CANCELED`, or `COMPLETED`.
 "status": "COMPLETED"
-[Workflows API](#workflows-api "Workflows API")[Start a Workflow](#start-a-workflow "Start a Workflow")[Get Metrics for a Workflow](#get-metrics-for-a-workflow "Get Metrics for a Workflow")[Get Workflow Instance](#get-workflow-instance "Get Workflow Instance")

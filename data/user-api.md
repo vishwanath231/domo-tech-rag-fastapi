@@ -1,5 +1,7 @@
 # User API
 
+> **Source:** https://developer.domo.com/portal/n7f7swo7h29wg-user-api
+
 ### [
 
 All Users
@@ -78,4 +80,3 @@ Details
   src\="/domo/avatars/v2/USER/846578099?size=300&defaultForeground=fff&defaultBackground=000&defaultText=D"
   alt\="User Avatar"
   />
-  [User API](#user-api "User API")[All Users](#all-users "All Users")[Single User](#single-user "Single User")[User Avatar](#user-avatar "User Avatar")
